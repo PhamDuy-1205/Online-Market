@@ -1,5 +1,5 @@
 # Online Market
-- FrontEnd : `Nuxt3 - Vue3 - Tailwind - một số thư viện liên quan (nếu có)`
+- FrontEnd : `Nuxt3 - Vue3 - một số thư viện liên quan (nếu có)`
 - FrontEnd : `Flast - Python - một số thư viện liên quan (nếu có)`
 - Ý tưởng : `Mang khu chợ về gần nhà`
 
