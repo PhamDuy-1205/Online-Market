@@ -1,0 +1,40 @@
+/* Reset các giá trị mặc định */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    /* font-size: 100%;
+    font: inherit; */
+}
+
+/* Thiết lập box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Thiết lập font mặc định */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Thiết lập một số giá trị mặc định cho các phần tử */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Thiết lập phần tử chứa nội dung */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Các quy tắc khác dựa trên nhu cầu cụ thể của trang web */

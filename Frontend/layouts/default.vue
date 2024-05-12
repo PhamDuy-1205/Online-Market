@@ -1,25 +1,36 @@
 <template>
-    <div>
-        <headerForm />
-    </div>
-    <div>
-        <slot />
-    </div>
-    <div>
-        <footerForm />
+    <div class="screen">
+        <div class="headerForm">
+            <headerForm />
+        </div>
+        <div class="bodyForm">
+            <slot />
+        </div>
+        <div class="footerForm">
+            <footerForm />
+        </div>
     </div>
 </template>
 
 
 <style lang="scss">
-.header-layout{
+.screen{
+    width: 100%;
+    height: 100%;
+}
+.headerForm {
+    height: 20vh;
     width: 100%;
 }
 
-.body-layout{
+.bodyForm {
     width: 100%;
-    height: fit-content;
-    // padding: 0px 3rem;
-    background-color: #F5F5F5;
+    height: calc(100vh - 40vh);
+    border: 1px solid black;
+}
+
+.footerForm {
+    height: 20vh;
+    width: 100%;
 }
 </style>
