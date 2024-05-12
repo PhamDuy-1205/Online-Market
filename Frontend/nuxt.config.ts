@@ -5,10 +5,6 @@ export default defineNuxtConfig({
   css: [
     './assets/css/main.css',
   ],
-  
-  alias: {
-    "@" : "/<rootDir>"
-  },
 
   postcss: {
     plugins: {

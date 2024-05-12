@@ -20,7 +20,7 @@
 }
 .headerForm {
     height: 20vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .bodyForm {

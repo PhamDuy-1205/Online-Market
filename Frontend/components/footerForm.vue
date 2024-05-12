@@ -1,8 +1,21 @@
 <template>
-    <h1 class="footerForm-container">This is footerForm</h1>
+    <div class="footer">
+
+        <div>
+            <h1>This is footerForm</h1>
+        </div>
+
+    </div>
 </template>
 
-<style>
-.footerForm-container {
+<style lang="scss">
+.footer {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    
 }
 </style>
