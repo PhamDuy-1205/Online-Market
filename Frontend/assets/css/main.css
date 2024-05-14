@@ -38,3 +38,9 @@ body {
 } */
 
 /* Các quy tắc khác dựa trên nhu cầu cụ thể của trang web */
+
+:root{
+    --mainGreen : #81c408;
+    --mainYellow : #ffb524;
+    --gray : rgba(0,0,0,.55);
+}

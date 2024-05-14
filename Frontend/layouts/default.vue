@@ -19,18 +19,18 @@
     height: 100%;
 }
 .headerForm {
-    height: 20vh;
+    height: 17vh;
     width: 100vw;
 }
 
 .bodyForm {
     width: 100%;
-    height: calc(100vh - 40vh);
+    height: calc(100vh - 17vh - 17vh);
     border: 1px solid black;
 }
 
 .footerForm {
-    height: 20vh;
+    height: 17vh;
     width: 100%;
 }
 </style>

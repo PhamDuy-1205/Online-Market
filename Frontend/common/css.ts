@@ -1,5 +1,6 @@
 const color = {
-    mainGreen : '#81c408'
+    mainGreen : '#81c408',
+    gray : 'rgba(0,0,0,.55)'
 }
 
 
