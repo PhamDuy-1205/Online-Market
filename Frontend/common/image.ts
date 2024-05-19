@@ -5,6 +5,7 @@ const yellow_email = '/_nuxt/assets/icons/yellow_email.png'
 const green_search = '/_nuxt/assets/icons/green_search.png'
 const green_cart = '/_nuxt/assets/icons/green_cart.png'
 const green_user_profile = '/_nuxt/assets/icons/green_user_profile.png'
+const green_menu = '/_nuxt/assets/icons/green_menu.png'
 // ---- Icons End ----
 
 
@@ -18,4 +19,5 @@ export default {
     green_search,
     green_cart,
     green_user_profile,
+    green_menu,
 }
